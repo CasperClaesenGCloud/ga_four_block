@@ -6,7 +6,7 @@
   elements:
   - title: Page Funnel
     name: Page Funnel
-    model: ga4_t
+    model: ga4
     explore: sessions
     type: looker_column
     fields: [sessions.audience_trait, sessions.count_of_page_1, sessions.count_of_page_2,
@@ -88,7 +88,7 @@
     height: 4
   - title: Page Path Funnel % of Total
     name: Page Path Funnel % of Total
-    model: ga4_t
+    model: ga4
     explore: sessions
     type: looker_column
     fields: [sessions.count_of_page_1, sessions.count_of_page_2, sessions.count_of_page_3,
@@ -142,7 +142,7 @@
     height: 8
   - title: Top Page Paths
     name: Top Page Paths
-    model: ga4_t
+    model: ga4
     explore: sessions
     type: looker_grid
     fields: [sessions.total_sessions, events.event_param_page, events.current_page_plus_1,
@@ -226,7 +226,7 @@
       type: relative_timeframes
       display: inline
       options: []
-    model: ga4_t
+    model: ga4
     explore: sessions
     listens_to_filters: []
     field: sessions.session_date
@@ -240,7 +240,7 @@
       type: tag_list
       display: popover
       options: []
-    model: ga4_t
+    model: ga4
     explore: sessions
     listens_to_filters: []
     field: events.event_param_host
@@ -254,7 +254,7 @@
       type: tag_list
       display: popover
       options: []
-    model: ga4_t
+    model: ga4
     explore: sessions
     listens_to_filters: []
     field: sessions.page_1_filter
@@ -268,7 +268,7 @@
       type: tag_list
       display: popover
       options: []
-    model: ga4_t
+    model: ga4
     explore: sessions
     listens_to_filters: []
     field: sessions.page_2_filter
@@ -282,7 +282,7 @@
       type: tag_list
       display: popover
       options: []
-    model: ga4_t
+    model: ga4
     explore: sessions
     listens_to_filters: []
     field: sessions.page_3_filter
@@ -296,7 +296,7 @@
       type: tag_list
       display: popover
       options: []
-    model: ga4_t
+    model: ga4
     explore: sessions
     listens_to_filters: []
     field: sessions.page_4_filter
@@ -310,7 +310,7 @@
       type: tag_list
       display: popover
       options: []
-    model: ga4_t
+    model: ga4
     explore: sessions
     listens_to_filters: []
     field: sessions.page_5_filter
@@ -324,7 +324,7 @@
       type: tag_list
       display: popover
       options: []
-    model: ga4_t
+    model: ga4
     explore: sessions
     listens_to_filters: []
     field: sessions.page_6_filter
@@ -338,7 +338,7 @@
       type: dropdown_menu
       display: inline
       options: []
-    model: ga4_t
+    model: ga4
     explore: sessions
     listens_to_filters: []
     field: sessions.audience_selector

@@ -1130,7 +1130,7 @@
     height: 6
   - title: Languages (Top 10)
     name: Languages (Top 10)
-    model: ga4_t
+    model: ga4
     explore: sessions
     type: looker_column
     fields: [sessions.total_sessions, sessions.device_data_language]

@@ -5,7 +5,7 @@
   elements:
   - title: Event Funnel
     name: Event Funnel
-    model: ga4_t
+    model: ga4
     explore: sessions
     type: looker_column
     fields: [sessions.audience_trait, sessions.count_of_event_1, sessions.count_of_event_2,
@@ -87,7 +87,7 @@
     height: 4
   - title: Event Action % of Total Funnel
     name: Event Action % of Total Funnel
-    model: ga4_t
+    model: ga4
     explore: sessions
     type: looker_column
     fields: [sessions.count_of_event_1, sessions.count_of_event_2, sessions.count_of_event_3,
@@ -142,7 +142,7 @@
     height: 8
   - title: Event Flow
     name: Event Flow
-    model: ga4_t
+    model: ga4
     explore: sessions
     type: looker_grid
     fields: [events.event_name, events.current_event_plus_1, events.current_event_plus_2,
@@ -214,7 +214,7 @@
       type: tag_list
       display: popover
       options: []
-    model: ga4_t
+    model: ga4
     explore: sessions
     listens_to_filters: []
     field: sessions.landing_page
@@ -228,7 +228,7 @@
       type: tag_list
       display: popover
       options: []
-    model: ga4_t
+    model: ga4
     explore: sessions
     listens_to_filters: []
     field: sessions.event_1_filter
@@ -242,7 +242,7 @@
       type: tag_list
       display: popover
       options: []
-    model: ga4_t
+    model: ga4
     explore: sessions
     listens_to_filters: []
     field: sessions.event_2_filter
@@ -256,7 +256,7 @@
       type: tag_list
       display: popover
       options: []
-    model: ga4_t
+    model: ga4
     explore: sessions
     listens_to_filters: []
     field: sessions.event_3_filter
@@ -270,7 +270,7 @@
       type: tag_list
       display: popover
       options: []
-    model: ga4_t
+    model: ga4
     explore: sessions
     listens_to_filters: []
     field: sessions.event_4_filter
@@ -284,7 +284,7 @@
       type: tag_list
       display: popover
       options: []
-    model: ga4_t
+    model: ga4
     explore: sessions
     listens_to_filters: []
     field: sessions.event_5_filter
@@ -298,7 +298,7 @@
       type: tag_list
       display: popover
       options: []
-    model: ga4_t
+    model: ga4
     explore: sessions
     listens_to_filters: []
     field: sessions.event_6_filter
@@ -312,7 +312,7 @@
       type: tag_list
       display: popover
       options: []
-    model: ga4_t
+    model: ga4
     explore: sessions
     listens_to_filters: []
     field: events.event_name
@@ -326,7 +326,7 @@
       type: dropdown_menu
       display: inline
       options: []
-    model: ga4_t
+    model: ga4
     explore: sessions
     listens_to_filters: []
     field: sessions.audience_selector
